@@ -4,22 +4,21 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="stylesheet" href="./assets/CSS/stel.css">
+    <link rel="stylesheet" href="./assets/CSS/stely.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
         integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
         integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
     <!-- Bootstrap CSS -->
 
-
     <title>Viajes Chile</title>
 </head>
 
 <body id="color_b" class="text-white">
     <!--navbar-->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-transparent fixed-top " id="home">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-transparent fixed-top " > 
         <div class="container text-white">
-            <a class="navbar-brand" href="#"><img src="" alt="">Viajes Chile</a>
+            <a class="navbar-brand" href="#"><img class="img" src=".//assets/img/viajes.svg " alt="Trip">Viajes Chile</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -27,14 +26,17 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item">
-                        <a class="nav-link" href="#home">Inicio <span class="sr-only">(current)</span></a>
+                    <a class="nav-link" href="#home">Inicio</a>
                     </li>
+
                     <li class="nav-item">
-                        <a class="nav-link" href="#about-me">Acerca de mi <span class="sr-only">(current)</span></a>
+                    <a class="nav-link" href="#about-me">Acerca de mi </a>
                     </li>
+
                     <li class="nav-item">
-                        <a class="nav-link" href="#work">Destacado</a>
+                    <a class="nav-link" href="#work">Destacado</a>
                     </li>
+
                     <li class="nav-item">
                         <a class="nav-link" href="#contac">Contacto</a>
                     </li>
@@ -45,9 +47,9 @@
 
     <!--Here section, carousel implementation-->
     <header>
-        <div id="carouselExampleInterval " class="carousel slide" data-bs-ride="carousel">
+        <div id="carouselExampleInterval " class="carousel slide " data-bs-ride="carousel">
             <div class="carousel-inner">
-                <div class="carousel-item active" data-bs-interval="10000">
+                <div class="carousel-item active" data-bs-interval="2000">
                     <img src=".//assets/img/carousel1.jpg" class="d-block w-100" alt="...">
                 </div>
                 <div class="carousel-item" data-bs-interval="2000">
@@ -67,93 +69,123 @@
             </a>
         </div>
     </header>
-    <section class="container border-bottom " id="about_me">
-        <h3 class="text-center">¿Quienes Somos?</h3>
-    </section>
 
     <section>
         <!--make the  grid first -->
-
-        <div class="container" >
+        <div class="container border-bottom border-info my-5" id="about-me">
+            <h3 class="text-center py-3">¿Quienes Somos?</h3>
+        </div>
+        <div class="container">
             <div class="row">
-                <div class="col-sm-4 pt-3">
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias minus excepturi ab voluptas
-                        repudiandae numquam ipsa dignissimos nostrum? Quasi, nostrum libero esse tenetur corrupti itaque
-                        porro accusantium aut accusamus sequi?</p>
+                <div class="col-sm-4 pt-3 ">
+                    <div class="container-fluid badge bg-primary">
+                        <i class="fas fa-plane"></i>
+                    </div>
+                    <p class="my-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit, ducimus,
+                        necessitatibus deserunt beatae iusto voluptas veritatis nobis dolorum adipisci neque quo
+                        explicabo temporibus commodi exercitationem! Officiis nobis minima temporibus aperiam nostrum
+                        incidunt ea, laborum sapiente cum ad possimus, repellendus perspiciatis reprehenderit architecto
+                        veniam quis illo debitis voluptatem dolorum non libero exercitationem quam tenetur voluptatum.
+                        Unde quam, explicabo molestiae alias aspernatur necessitatibus illo tempora quae. Cum quis quasi
+                        dolorem commodi. Rerum odit dolorum, magnam ratione ex quidem alias modi? </p>
                 </div>
                 <div class="col-sm-4 pt-3">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis pariatur aut illo nobis ipsam
-                        excepturi consectetur facere, similique quasi commodi, impedit accusamus labore molestias, rem
-                        modi quod culpa deleniti cumque.</p>
+                    <p class="my-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit, ducimus,
+                        necessitatibus deserunt beatae iusto voluptas veritatis nobis dolorum adipisci neque quo
+                        explicabo temporibus commodi exercitationem! Officiis nobis minima temporibus aperiam nostrum
+                        incidunt ea, laborum sapiente cum ad possimus, repellendus perspiciatis reprehenderit architecto
+                        veniam quis illo debitis voluptatem dolorum non libero exercitationem quam tenetur voluptatum.
+                        Unde quam, explicabo molestiae alias aspernatur necessitatibus illo tempora quae. Cum quis quasi
+                        dolorem commodi. Rerum odit dolorum, magnam ratione ex quidem alias modi?</p>
+                    <div class="container-fluid badge bg-primary">
+                        <i class="fas fa-exclamation-triangle"></i>
+                    </div>
                 </div>
                 <div class="col-sm-4 pt-3 ">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt eveniet perspiciatis accusantium
-                    distinctio, praesentium laudantium corrupti aut possimus sunt quidem ipsam! Nostrum expedita
-                    adipisci id dolorem hic nulla rerum iure.
+                    <div class="container-fluid badge bg-primary">
+                        <i class="fas fa-route"></i>
+                    </div>
+                    <p class="my-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit, ducimus,
+                        necessitatibus deserunt beatae iusto voluptas veritatis nobis dolorum adipisci neque quo
+                        explicabo temporibus commodi exercitationem! Officiis nobis minima temporibus aperiam nostrum
+                        incidunt ea, laborum sapiente cum ad possimus, repellendus perspiciatis reprehenderit architecto
+                        veniam quis illo debitis voluptatem dolorum non libero exercitationem quam tenetur voluptatum.
+                        Unde quam, explicabo molestiae alias aspernatur necessitatibus illo tempora quae. Cum quis quasi
+                        dolorem commodi. Rerum odit dolorum, magnam ratione ex quidem alias modi?</p>
                 </div>
             </div>
         </div>
     </section>
 
+    <section>
+        <!--Make CARD-->
+        <div class="container border-bottom border-info my-5" id="work">
+            <h3 class="text-center py-3">Destacados</h3>
+        </div>
+        <div class="row text-white  " style="width: auto;">
+            <div class="col-sm-3 pt-3 mx-6 ">
+                <div class="card mx-auto" style="width: 15rem;">
+                    <img src=".//assets/img/card1.jpg" class="card-img-top" alt="...">
+                    <div class="card-body bg-info">
+                        <h5 class="card-title ">Lorem ipsumdolor sit amet</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestiae officiis cumque facilis voluptatem fuga adipisci veniam possimus quam ex!.</p>
 
-    <section >
-        <!--THE CARD-->
-        <div class="container border-bottom" id="work">
-            <!--make the grids -->
-            <h2 class="text-center border-bottom">Destacados</h2>
-            <div class="row">
-                <div class="col-sm-3 pt-3">
-                    <div class="card" style="width: 18rem;">
-                        <img src=".//assets/img/card1.jpg" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
-                                of the card's content.</p>
-                        
-                        </div>
                     </div>
                 </div>
-                <div class="col-sm-3 pt-3">
-                    <div class="card" style="width: 18rem;">
-                        <img src="./assets/img/card2.jpg" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
-                                of the card's content.</p>
-                        
-                        </div>
+            </div>
+            <div class="col-sm-3 pt-3 mx-6">
+                <div class="card mx-auto" style="width: 15rem;">
+                    <img src="./assets/img/card2.jpg" class="card-img-top" alt="...">
+                    <div class="card-body bg-info">
+                        <h5 class="card-title">Lorem ipsum dolor sit amet.</h5>
+                        <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Impedit temporibus eveniet quia beatae officiis natus cum, neque adipisci eum!</p>
+
                     </div>
                 </div>
-                <div class="col-sm-3 pt-3 ">
-                    <div class="card" style="width: 18rem;">
-                        <img src="./assets/img/card3.jpg" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
-                                of the card's content.</p>
-                           
-                        </div>
+            </div>
+            <div class="col-sm-3 pt-3 mx-6">
+                <div class="card mx-auto" style="width: 15rem;">
+                    <img src="./assets/img/card3.jpg" class="card-img-top" alt="...">
+                    <div class="card-body bg-info">
+                        <h5 class="card-title">sed do elusmod tempor incididunt ut labore</h5>
+                        <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eius temporibus similique vero blanditiis, repellat perspiciatis nobis.</p>
+
                     </div>
                 </div>
-                <div class="col-sm-3 pt-3 ">
-                    <div class="card" style="width: 18rem;">
-                        <img src="./assets/img/card4.jpg" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
-                                of the card's content.</p>
-                            
-                        </div>
+            </div>
+            <div class="col-sm-3 pt-3 mx-6 ">
+                <div class="card mx-auto" style="width: 15rem;">
+                    <img src="./assets/img/card4.jpg" class="card-img-top" alt="...">
+                    <div class="card-body bg-info">
+                        <h5 class="card-title">Lorem ipsum dolor sit amet.</h5>
+                        <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Doloribus error, eius illum totam quam quo?.</p>
+
                     </div>
                 </div>
             </div>
         </div>
+        </div>
     </section>
 
-    <section class="container text-center py-4 border-bottom" id="contac">
-        <h3 class="border-bottom">Contacto</h3>
+    <section class="container-fluid" id="contac">
+        <div class="container border-bottom border-info my-5" id="about-me">
+            <h3 class="text-center py-3">Contacto</h3>
+
+        </div>
     </section>
 
+    <section class="border border-info container my-3">
+        <div class="card text-center">
+           
+            <div class="card-body">
+              <h5 class="card-title">"Hola, gracias por contactarnos"</h5>
+              <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+              <a href="#" class="btn btn-primary">Comenzar</a>
+            </div>
+           
+          </div>
+    </section>
+    
     <footer class="foot">
         <div class="container">
             <div class="row">
@@ -161,16 +193,13 @@
                     <H4 class="text-white">Viajes Chile </H4>
                 </div>
                 <div class="col-sm-3 pt-3">
-             
+
                 </div>
-                <div class="col-sm-5 pt-3 ml-auto  text-white ">
-
-                    <i class="fab fa-github fa-2x mx-2"></i>
-                    <i class="fab fa-linkedin fa-2x mx-2"></i>
-                    <i class="fab fa-twitter fa-2x mx-2"></i>
-                    <i class="fab fa-facebook-square fa-2x mx-2"></i>
- 
-
+                <div class="col-sm-5 pt-3 ml-auto  ">
+                    <a href="http://github.com" class="  text-white stretched-link"><i class="fab fa-github fa-2x mx-2" > </i></a>
+                    <a href="https://cr.linkedin.com/" class="  text-white stretched-link"> <i class="fab fa-linkedin fa-2x mx-2" > </i></a>
+                    <a href="https://twitter.com" class="stretched-link  text-white"><i class="fab fa-twitter fa-2x mx-2"></i></a>
+                    <a href="https://www.facebook.com/" class="stretched-link  text-white"><i class="fab fa-facebook-square fa-2x mx-2"></i> </a>
                 </div>
             </div>
         </div>
