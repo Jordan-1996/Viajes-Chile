@@ -7,21 +7,27 @@ $(document).ready(function(){
       $('html,body').animate({
         scrollTop: $(hash).offset().top
       },8000,function(){
-        window.location.hash = hash
+        window.location.hash = hash;
       })
     }
+  })  
+  
+  $(function () {
+    $('[data-toggle="tooltip"]').tooltip()
   })
-  $('.carousel').carousel({
-    interval: 2000
-  })
+
+
+
 })
 
 
-
-
-
-/*var myCarousel = document.querySelector('#myCarousel')
+/*var myCarousel = document.querySelector('#carouselExampleInterval')
 var carousel = new bootstrap.Carousel(myCarousel, {
   interval: 2000,
   wrap: false 
+
+
+  $('.carousel').carousel({
+    interval: 2000
+  })
 })*/
